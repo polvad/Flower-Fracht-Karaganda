@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,italic&display=swap"
+        rel="stylesheet">
+    <title>Flower Fracht Karaganda</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo logo" href="./index.html">
+                <img class="logo__img" src="./images/logo.png" width="126" height="50" alt="Логотип">
+            </a>
+
+            <div class="header__mobile-menu">
+                <nav class="header__menu">
+                    <a class="header__menu-link text-link active" href="./index.html">Главная</a>
+                    <a class="header__menu-link text-link @link-storage" href="./storage-page.html">Наши склады</a>
+                    <a class="header__menu-link text-link @link-broker" href="./broker-page.html">Брокерам</a>
+                    <a class="header__menu-link text-link @link-contacts" href="./contacts-page.html">Контакты</a>
+                </nav>
+                <div class="header__contact">
+                    <a class="header__contact-link text-link" href="tel:+74957378585">
+                        <svg class="header__contact-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +7 (495) 737 8585
+                    </a>
+                    <a class="header__contact-link text-link" href="mailto:ffkaragandainfo@info.ru">
+                        <svg class="header__contact-icon" width="14" height="10">
+                            <use xlink:href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                        ffkaragandainfo@info.ru
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__btns">
+                <div class="header__lang lang">
+                    <button class="lang__btn" type="button">RU</button>
+                    <ul class="lang__list">
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Ru</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Kz</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Eng</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Es</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="header__burger-btn" type="button">
+                    <span class="sr-only">Open mobile menu</span>
+                    <span class="line"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="hero">
+    <div class="container">
+        <div class="hero__inner">
+            <div class="hero__left">
+                <div class="hero__content">
+                    <span class="hero__name-company name-company name-company_white">Flower Fracht Karaganda </span>
+                    <h1 class="hero__title h1-title">Авиаперевозка цветов</h1>
+                    <div class="hero__text">
+                        <p>
+                            Занимаемся только АВИА перевозкой свеже срезанных цветов и растений из
+                            <b>Эквадора,Кении, Колумбии, Чили, Голландии, Израиля</b>
+                            до конечного заказчика.
+                        </p>
+                        <p>
+                            <b>Максимальный срок доставки товара – 7 дней от заказа.</b>
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="hero__slider-card slider-card">
+                    <li class="slider-card__item" data-tilt data-btn-map="ke">
+                        <img class="slider-card__img" src="./images/hero-flowers-ke.jpg" width="160" height="250"
+                            alt="img">
+                        <abbr class="slider-card__text" title="Кения">ke</abbr>
+                    </li>
+
+                    <li class="slider-card__item active" data-tilt data-btn-map="co">
+                        <img class="slider-card__img" src="./images/hero-flowers-co.jpg" width="160" height="250"
+                            alt="img">
+                        <abbr class="slider-card__text" title="Колумбия">co</abbr>
+                    </li>
+
+                    <li class="slider-card__item" data-tilt data-btn-map="cl">
+                        <img class="slider-card__img" src="./images/hero-flowers-cl.jpg" width="160" height="250"
+                            alt="img">
+                        <abbr class="slider-card__text" title="Чили">cl</abbr>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="hero__right">
+                <div class="hero__contacts">
+                    <a class="hero__contact-link hero__contact-link_line" href="tel:+74957378585">
+                        <svg class="hero__contact-icon" width="16" height="16">
+                            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +7 (495) 737 8585
+                    </a>
+                    <a class="hero__contact-link" href="mailto:ffkaragandainfo@info.ru">
+                        <svg class="hero__contact-icon" width="16" height="11">
+                            <use xlink:href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                        ffkaragandainfo@info.ru
+                    </a>
+
+                    <button class="hero__btn btn" type="button" data-modal-btn="modal-feedback">связаться с нами</button>
+                </div>
+
+                <ul class="hero__slider-map slider-map">
+                    <li class="slider-map__item" style="background-image: url('./images/map/map-kenya.svg');" data-tilt
+                        data-map-min="ke">
+                        <svg class="slider-map__icon" width="15" height="18">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="slider-map__name-country">kenya</span>
+                        <p class="slider-map__text">
+                            Стоимость доставки 1 фулбокса <b>от 105 $</b>
+                        </p>
+                    </li>
+
+                    <li class="slider-map__item active" style="background-image: url('./images/map/map-ecuador.svg');"
+                        data-tilt data-map-min="co">
+                        <svg class="slider-map__icon" width="15" height="18">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="slider-map__name-country">Ecuador</span>
+                        <p class="slider-map__text">
+                            Стоимость доставки 1 фулбокса <b>от 105 $</b>
+                        </p>
+                    </li>
+
+                    <li class="slider-map__item" style="background-image: url('./images/map/map-chile.svg');" data-tilt
+                        data-map-min="cl">
+                        <svg class="slider-map__icon" width="15" height="18">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="slider-map__name-country">Chile</span>
+                        <p class="slider-map__text">
+                            Стоимость доставки 1 фулбокса <b>от 105 $</b>
+                        </p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+            <section class="benefits section">
+    <div class="decor">
+        <img class="decor__map-left" src="./images/map/map-left.svg" alt="img">
+        <img class="decor__plane-left" width="50" src="./images/map/plane.svg" alt="img">
+        <img class="decor__map-right" src="./images/map/map-right.svg" alt="img">
+        <img class="decor__plane-right" width="50" src="./images/map/plane-right.svg" alt="img">
+    </div>
+
+    <div class="container">
+        <span class="benefits__name-company name-company">Flower Fracht Karaganda</span>
+        <h2 class="benefits__title h2-title">О нас в цифрах</h2>
+
+        <ul class="benefits__list">
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-calendar.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">7 лет</strong>
+                    <p class="benefits__text">Успешно работаем уже более семи лет</p>
+                </div>
+            </li>
+
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-box.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">775 тонн</strong>
+                    <p class="benefits__text">Мы перевезли почти 780 тонн груза</p>
+                </div>
+            </li>
+
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-file.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">94 %</strong>
+                    <p class="benefits__text">Средний процент выполнения заказа: 94%</p>
+                </div>
+            </li>
+
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-plane.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">14 стран</strong>
+                    <p class="benefits__text">Осуществляем перевозки из 14 стран</p>
+                </div>
+            </li>
+
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-temperature.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">+2/8 градуса</strong>
+                    <p class="benefits__text">Соблюдение температур при перевозке</p>
+                </div>
+            </li>
+
+            <li class="benefits__item" data-tilt>
+                <img class="benefits__icon" src="./images/icons/icon-smail.svg" width="60" height="82" alt="icon">
+                <div class="benefits__content">
+                    <strong class="benefits__num">174 клиента</strong>
+                    <p class="benefits__text">С нами работают 174 клиента</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+            <section class="delivery">
+    <div class="container">
+        <div class="delivery__inner">
+
+            <div class="delivery__content">
+                <span class="delivery__name-company name-company">Flower Fracht Karaganda</span>
+                <h2 class="delivery__title h2-title">Откуда мы везем наши цветы?</h2>
+                <div class="delivery__text">
+                    <p>
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                        несколько абзацев более менее осмысленного текста рыбы на русском языке.
+                    </p>
+                    <p>
+                        Мы привозим цветы и растения в горшках из
+                        <b>Эквадора, Кении, Колумбии, Чили, Голландии, Израиля</b> и доставляем их свежими во все
+                        регионы
+                        СНГ.
+                    </p>
+                    <p>
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                        несколько абзацев более менее осмысленного текста рыбы на русском языке.
+                    </p>
+                </div>
+
+                <button class="delivery__btn btn" type="button"  data-modal-btn="modal-feedback">связаться с нами</button>
+            </div>
+
+            <ul class="delivery__list-country">
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country active" type="button" id="ec">
+                        <abbr class="delivery__btn-country-abbr" title="Ecuador">ec</abbr>
+                        <span class="delivery__btn-country-name">Ecuador</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country" type="button" id="ke">
+                        <abbr class="delivery__btn-country-abbr" title="Кения">ke</abbr>
+                        <span class="delivery__btn-country-name">Кения</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country" type="button" id="co">
+                        <abbr class="delivery__btn-country-abbr" title="Колумбия">co</abbr>
+                        <span class="delivery__btn-country-name">Колумбия</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country" type="button" id="cl">
+                        <abbr class="delivery__btn-country-abbr" title="Чили">cl</abbr>
+                        <span class="delivery__btn-country-name">Чили</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country" type="button" id="nl">
+                        <abbr class="delivery__btn-country-abbr" title="Нидерланды">nl</abbr>
+                        <span class="delivery__btn-country-name">Нидерланды</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+
+                <li class="delivery__item-country">
+                    <button class="delivery__btn-country" type="button" id="il">
+                        <abbr class="delivery__btn-country-abbr" title="Израиль">il</abbr>
+                        <span class="delivery__btn-country-name">Израиль</span>
+                        <span class="delivery__btn-country-time">
+                            Доставка в Караганду занимает от <b>1</b> до <b>2</b> дней
+                        </span>
+                    </button>
+                </li>
+            </ul>
+
+            <ul class="delivery__map-tabs tabs-map">
+                <li class="tabs-map__item" data-map="ec">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_cl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ec location location_carrent">
+                        <span class="location__name">Ecuador</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_ec"></span>
+                    <img class="tabs-map__plane tabs-map__plane_ec" src="./images/map/map-plane.svg" alt="img">
+                </li>
+
+                <li class="tabs-map__item hidden" data-map="cl">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_ec location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_cl location location_carrent">
+                        <span class="location__name">Chile</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_cl"></span>
+                    <img class="tabs-map__plane tabs-map__plane_cl" src="./images/map/map-plane.svg" alt="img">
+                </li>
+
+                <li class="tabs-map__item hidden" data-map="co">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_ec location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_cl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location location_carrent">
+                        <span class="location__name">Columbia</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_co"></span>
+                    <img class="tabs-map__plane tabs-map__plane_co" src="./images/map/map-plane.svg" alt="img">
+                </li>
+
+                <li class="tabs-map__item hidden" data-map="ke">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_ec location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_cl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location location_carrent">
+                        <span class="location__name">Kenya</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_ke"></span>
+                    <img class="tabs-map__plane tabs-map__plane_ke" src="./images/map/map-plane.svg" alt="img">
+                </li>
+
+                <li class="tabs-map__item hidden" data-map="il">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_ec location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_cl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location location_carrent">
+                        <span class="location__name">israel</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_il"></span>
+                    <img class="tabs-map__plane tabs-map__plane_il" src="./images/map/map-plane.svg" alt="img">
+                </li>
+
+                <li class="tabs-map__item hidden" data-map="nl">
+                    <img class="tabs-map__img" src="./images/map/delivery-map.svg" width="880" height="437" alt="img">
+                    <div class="tabs-map__location tabs-map__location_ec location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_cl location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_co location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_ke location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_il location">
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_nl location location_carrent">
+                        <span class="location__name">Нидерланды</span>
+                        <svg class="location__icon" width="12" height="20">
+                            <use xlink:href="./images/sprite.svg#icon-location"></use>
+                        </svg>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <div class="tabs-map__location tabs-map__location_kz location location_carrent">
+                        <span class="location__name">Karaganda</span>
+                        <span class="location__circel"></span>
+                    </div>
+
+                    <span class="tabs-map__line tabs-map__line_nl"></span>
+                    <img class="tabs-map__plane tabs-map__plane_nl" src="./images/map/map-plane.svg" alt="img">
+                </li>
+            </ul>
+
+            <img class="delivery__decor-picke" src="./images/map/plane-picke.svg" alt="img">
+        </div>
+    </div>
+</section>
+            <section class="calculator section">
+    <div class="container">
+        <div class="calculator__inner">
+
+            <div class="calculator__graph"></div>
+
+            <div class="calculator__content">
+                <span class="calculator__name-company name-company">Flower Fracht Karaganda</span>
+                <h2 class="calculator__title h2-title">Калькулятор доставки</h2>
+                <ul class="calculator__tabs">
+                    <li class="calculator__item">
+                        <h3 class="calculator__heading active" data-spoiler-btn="country">Выберите страну по которой хотите
+                            узнать время доставки</h3>
+                        <form class="calculator__select-country select-country " action="#"
+                            data-spoiler-content="country">
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio" checked>
+                                <span class="select-country__circel"></span>
+                                Эквадор
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Израиль
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Кения
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Голландия
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Колумбия
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Испания
+                            </label>
+
+                            <label class="select-country__label">
+                                <input class="select-country__input sr-only" name="country" type="radio">
+                                <span class="select-country__circel"></span>
+                                Чили
+                            </label>
+
+                        </form>
+                    </li>
+
+                    <li class="calculator__item">
+                        <h3 class="calculator__heading" data-spoiler-btn="select-time">Выберите страну по которой хотите
+                            узнать время доставки</h3>
+
+                        <div class="calculator__body hidden" data-spoiler-content="select-time">
+                            <span class="calculator__location">
+                                Ecuador
+                            </span>
+                            <div class="calculator__order">
+                                <span class="calculator__order-left">День заказа</span>
+                                <input class="calculator__order-right calculator__order-right_select" type="date"
+                                    name="order-day">
+                            </div>
+
+                            <div class="calculator__order">
+                                <span class="calculator__order-left">Конец сбора заказов</span>
+                                <time class="calculator__order-right" datetime="2023-07-27 16:00">
+                                    27 июля до 16:00
+                                </time>
+                            </div>
+
+                            <div class="calculator__order">
+                                <span class="calculator__order-left">Доставка</span>
+                                <span class="calculator__order-right">7 дней </span>
+                            </div>
+
+                            <div class="calculator__order">
+                                <span class="calculator__order-left">День поставки</span>
+                                <span class="calculator__order-right">3 августа</span>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+            <section class="tariffs section">
+    <div class="container">
+        <span class="tariffs__name-company name-company">Flower Fracht Karaganda</span>
+        <h2 class="tariffs__title h2-title">Основные тарифы</h2>
+        <div class="tariffs__items">
+            <div class="tariffs__item">
+                <div class="tariffs__inner">
+                    <div class="tariffs__front">
+                        <div class="tariffs__top">
+                            <img class="tariffs__icon" src="./images/icons/icon-plane.svg" width="60" height="82"
+                                alt="img">
+                            <div class="tariffs__info">
+                                <span class="tariffs__price">от <b>5.7$/1 кг</b></span>
+                                <span class="tariffs__country">Колумбия, Эквадор, Кения</span>
+                            </div>
+                        </div>
+                        <p class="tariffs__text">
+                            Доставка заказа осуществляется до двери
+                        </p>
+                    </div>
+                    <div class="tariffs__back">
+                        <a class="tariffs__link btn" href="./price.txt" target="_blank">Скачать прайс</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tariffs__item">
+                <div class="tariffs__inner">
+                    <div class="tariffs__front">
+                        <div class="tariffs__top">
+                            <img class="tariffs__icon" src="./images/icons/icon-plane.svg" width="60" height="82"
+                                alt="img">
+                            <div class="tariffs__info">
+                                <span class="tariffs__price">от <b>5.7$/1 кг</b></span>
+                                <span class="tariffs__country">Колумбия, Эквадор, Кения</span>
+                            </div>
+                        </div>
+                        <p class="tariffs__text">
+                            Доставка заказа осуществляется до двери
+                        </p>
+                    </div>
+                    <div class="tariffs__back">
+                        <a class="tariffs__link btn" href="./price.txt" target="_blank">Скачать прайс</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tariffs__item">
+                <div class="tariffs__inner">
+                    <div class="tariffs__front">
+                        <div class="tariffs__top">
+                            <img class="tariffs__icon" src="./images/icons/icon-plane.svg" width="60" height="82"
+                                alt="img">
+                            <div class="tariffs__info">
+                                <span class="tariffs__price">от <b>5.7$/1 кг</b></span>
+                                <span class="tariffs__country">Колумбия, Эквадор, Кения</span>
+                            </div>
+                        </div>
+                        <p class="tariffs__text">
+                            Доставка заказа осуществляется до двери
+                        </p>
+                    </div>
+                    <div class="tariffs__back">
+                        <a class="tariffs__link btn" href="./price.txt" target="_blank">Скачать прайс</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+            <section class="feedback section">
+
+    <div class="container">
+
+        <div class="feedback__content">
+            <span class="feedback__name-company name-company name-company_white">Flower Fracht Karaganda</span>
+            <h2 class="feedback__title h2-title">Заказать звонок</h2>
+            <p class="feedback__desc">Закажите звонок и наш менеджер свяжется с вами в ближайшее время</p>
+
+            <form class="feedback__form" action="#">
+                <div class="feedback__row">
+                    <input class="feedback__input field" type="text" placeholder="Им'я" required>
+                    <input class="feedback__input field" type="number" placeholder="Номер телефона" required>
+                </div>
+                <div class="feedback__row">
+                    <label class="feedback__label">
+                        <input class="feedback__input-check sr-only" name="permit" type="checkbox" required>
+                        <span class="feedback__checkbox checkbox-custom"></span>
+                        <span class="feedback__permit">
+                            Даю свое согласия на обработку
+                            <a href="#">персональных данных</a>
+                        </span>
+                    </label>
+                    <button class="feedback__btn btn" type="submit">Заказать звонок</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+
+        </main>
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <a class="footer__logo logo" href="./index.html">
+                <img class="logo__img" src="./images/logo.png" width="126" height="50" alt="Логотип">
+            </a>
+
+            <ul class="footer__list-page">
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./index.html">Главная</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./storage-page.html">Наши склады</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./broker-page.html">Брокерам</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./contacts-page.html">Контакты</a>
+                </li>
+            </ul>
+
+            <div class="footer__info">
+
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link text-link" href="tel:+74957378585">
+                        <svg class="footer__contacts-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +7 (495) 737 8585
+                    </a>
+
+                    <a class="footer__contacts-link text-link" href="mailto:ffkaragandainfo@info.ru">
+                        <svg class="footer__contacts-icon" width="14" height="10">
+                            <use xlink:href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                        ffkaragandainfo@info.ru
+                    </a>
+
+                </div>
+
+                <div class="footer__info-site">
+                    <a class="footer__info-privacy" href="./404-page.html">
+                        Политика конфеденциальности
+                    </a>
+
+                    <span class="footer__info-text">
+                        Copyright © 2021 All rights reserved
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <div class="modal modal_hidden" id="modal-feedback">
+    <div class="modal__inner">
+        <div class="modal__content modal-feedback">
+            <button class="modal__close modal-feedback__close" type="button" aria-label="Закрить"></button>
+            <div class="modal-feedback__image"></div>
+            <div class="modal-feedback__content">
+                <h2 class="modal-feedback__title">Заказать звонок</h2>
+                <p class="modal-feedback__text">
+                    Закажите звонок и наш менеджер свяжется с вами в ближайшее время
+                </p>
+
+                <form class="modal-feedback__form" action="#">
+
+                   <div class="modal-feedback__input-inner">
+                     <input class="modal-feedback__input field" type="text" placeholder="Им'я" required>
+                     <input class="modal-feedback__input field" type="number" placeholder="Номер телефона" required>
+                   </div>
+
+                    <label class="modal-feedback__label">
+                        <input class="modal-feedback__input-check sr-only" name="permit" type="checkbox" required>
+                        <span class="modal-feedback__checkbox checkbox-custom"></span>
+                        <span class="modal-feedback__permit">
+                            Даю свое согласия на обработку
+                            <a href="#">персональных данных</a>
+                        </span>
+                    </label>
+
+                    <button class="modal-feedback__btn btn" type="submit">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/main.min.js"></script>
+</body>
+
+</html>

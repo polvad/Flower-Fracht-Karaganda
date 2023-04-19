@@ -1,0 +1,33 @@
+<div class="modal modal_hidden" id="modal-feedback">
+    <div class="modal__inner">
+        <div class="modal__content modal-feedback">
+            <button class="modal__close modal-feedback__close" type="button" aria-label="Закрить"></button>
+            <div class="modal-feedback__image"></div>
+            <div class="modal-feedback__content">
+                <h2 class="modal-feedback__title">Заказать звонок</h2>
+                <p class="modal-feedback__text">
+                    Закажите звонок и наш менеджер свяжется с вами в ближайшее время
+                </p>
+
+                <form class="modal-feedback__form" action="#">
+
+                   <div class="modal-feedback__input-inner">
+                     <input class="modal-feedback__input field" type="text" placeholder="Им'я" required>
+                     <input class="modal-feedback__input field" type="number" placeholder="Номер телефона" required>
+                   </div>
+
+                    <label class="modal-feedback__label">
+                        <input class="modal-feedback__input-check sr-only" name="permit" type="checkbox" required>
+                        <span class="modal-feedback__checkbox checkbox-custom"></span>
+                        <span class="modal-feedback__permit">
+                            Даю свое согласия на обработку
+                            <a href="./404-page.html">персональных данных</a>
+                        </span>
+                    </label>
+
+                    <button class="modal-feedback__btn btn" type="submit">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

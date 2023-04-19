@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,italic&display=swap"
+        rel="stylesheet">
+    <title>Flower Fracht Karaganda</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @include('./components/header.html',{
+        "link-contacts": "active"
+        })
+        <main class="main">
+
+            <section class="contacts">
+                <div class="head-page" style="background-image: url('./images/broker-bg.jpg');">
+                    <div class="container">
+                        <div class="head-page__inner">
+                            <span class="head-page__name-company name-company name-company_white">Flower Fracht
+                                Karaganda</span>
+                            <h1 class="head-page__title h1-title">Контакты</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacts__body section">
+                    <div class="container">
+                        <div class="contacts__card-items">
+                            <div class="contacts__card-item" data-tilt>
+                                <img class="contacts__card-icon" src="./images/icons/icon-tel.svg" width="60"
+                                    height="80" alt="img">
+                                <div class="contacts__card-content">
+                                    <span class="contacts__card-title">Телефон</span>
+                                    <a class="contacts__card-link" href="tel:+74957378585">+7 (495) 737 8585</a>
+                                    <a class="contacts__card-link" href="tel:+74957378282">+7 (495) 737 8282</a>
+                                </div>
+                            </div>
+
+                            <div class="contacts__card-item" data-tilt>
+                                <img class="contacts__card-icon" src="./images/icons/icon-email2.svg" width="60"
+                                    height="80" alt="img">
+                                <div class="contacts__card-content">
+                                    <span class="contacts__card-title">E-mail</span>
+                                    <a class="contacts__card-link"
+                                        href="mailto:ffkaragandainfo@info.ru">ffkaragandainfo@info.ru</a>
+                                </div>
+                            </div>
+
+                            <div class="contacts__card-item" data-tilt>
+                                <img class="contacts__card-icon" src="./images/icons/icon-location2.svg" width="60"
+                                    height="80" alt="img">
+                                <div class="contacts__card-content">
+                                    <span class="contacts__card-title">Адрес</span>
+                                    <address class="contacts__card-text">
+                                        Казахстан, г. Караганда, Просп. Бухар-Жырау 59/2, офис 214                                       
+                                    </address>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="contacts__map-box">
+                            <img class="contacts__map-img" src="./images/contacts-counsel.jpg" width="490" height="546"
+                                alt="img">
+                            <div class="contacts__map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2165.4981019062925!2d73.08639387241628!3d49.800623401219696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243472fe7070fb9%3A0x5a2329403b04a730!2zMjE0LCDQv9GA0L7RgdC_LiDQkdGD0YXQsNGALdCW0YvRgNCw0YMgNTkvMiwg0JrQsNGA0LDQs9Cw0L3QtNCwIDEwMDAwMCwg0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2sua!4v1681487522330!5m2!1sru!2sua"
+                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        @include('./components/footer.html')
+    </div>
+
+    @include('./components/scripts.html')
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,italic&display=swap"
+        rel="stylesheet">
+    <title>Flower Fracht Karaganda</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo logo" href="./index.html">
+                <img class="logo__img" src="./images/logo.png" width="126" height="50" alt="Логотип">
+            </a>
+
+            <div class="header__mobile-menu">
+                <nav class="header__menu">
+                    <a class="header__menu-link text-link @link-main" href="./index.html">Главная</a>
+                    <a class="header__menu-link text-link @link-storage" href="./storage-page.html">Наши склады</a>
+                    <a class="header__menu-link text-link @link-broker" href="./broker-page.html">Брокерам</a>
+                    <a class="header__menu-link text-link @link-contacts" href="./contacts-page.html">Контакты</a>
+                </nav>
+                <div class="header__contact">
+                    <a class="header__contact-link text-link" href="tel:+74957378585">
+                        <svg class="header__contact-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +7 (495) 737 8585
+                    </a>
+                    <a class="header__contact-link text-link" href="mailto:ffkaragandainfo@info.ru">
+                        <svg class="header__contact-icon" width="14" height="10">
+                            <use xlink:href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                        ffkaragandainfo@info.ru
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__btns">
+                <div class="header__lang lang">
+                    <button class="lang__btn" type="button">RU</button>
+                    <ul class="lang__list">
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Ru</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Kz</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Eng</a>
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="#">Es</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="header__burger-btn" type="button">
+                    <span class="sr-only">Open mobile menu</span>
+                    <span class="line"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="error" style="background-image: url('./images/error-bg.jpg');">
+                <div class="container">
+                    <div class="error__inner">
+                        <span class="error__name">Ошибка</span>
+                        <h1 class="error__title h1-title">404</h1>
+                        <p class="error__text">
+                            К сожалению страница не найдена, скорее всего она была удалена.
+                            <b>Рекомендуем вернуться на главную.</b>
+                        </p>
+                        <a class="error__btn btn" href="./index.html">Главная</a>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <a class="footer__logo logo" href="./index.html">
+                <img class="logo__img" src="./images/logo.png" width="126" height="50" alt="Логотип">
+            </a>
+
+            <ul class="footer__list-page">
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./index.html">Главная</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./storage-page.html">Наши склады</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./broker-page.html">Брокерам</a>
+                </li>
+                <li class="footer__item footer__item_page">
+                    <a class="footer__link text-link" href="./contacts-page.html">Контакты</a>
+                </li>
+            </ul>
+
+            <div class="footer__info">
+
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link text-link" href="tel:+74957378585">
+                        <svg class="footer__contacts-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +7 (495) 737 8585
+                    </a>
+
+                    <a class="footer__contacts-link text-link" href="mailto:ffkaragandainfo@info.ru">
+                        <svg class="footer__contacts-icon" width="14" height="10">
+                            <use xlink:href="./images/sprite.svg#icon-email"></use>
+                        </svg>
+                        ffkaragandainfo@info.ru
+                    </a>
+
+                </div>
+
+                <div class="footer__info-site">
+                    <a class="footer__info-privacy" href="./404-page.html">
+                        Политика конфеденциальности
+                    </a>
+
+                    <span class="footer__info-text">
+                        Copyright © 2021 All rights reserved
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <div class="modal modal_hidden" id="modal-feedback">
+    <div class="modal__inner">
+        <div class="modal__content modal-feedback">
+            <button class="modal__close modal-feedback__close" type="button" aria-label="Закрить"></button>
+            <div class="modal-feedback__image"></div>
+            <div class="modal-feedback__content">
+                <h2 class="modal-feedback__title">Заказать звонок</h2>
+                <p class="modal-feedback__text">
+                    Закажите звонок и наш менеджер свяжется с вами в ближайшее время
+                </p>
+
+                <form class="modal-feedback__form" action="#">
+
+                   <div class="modal-feedback__input-inner">
+                     <input class="modal-feedback__input field" type="text" placeholder="Им'я" required>
+                     <input class="modal-feedback__input field" type="number" placeholder="Номер телефона" required>
+                   </div>
+
+                    <label class="modal-feedback__label">
+                        <input class="modal-feedback__input-check sr-only" name="permit" type="checkbox" required>
+                        <span class="modal-feedback__checkbox checkbox-custom"></span>
+                        <span class="modal-feedback__permit">
+                            Даю свое согласия на обработку
+                            <a href="#">персональных данных</a>
+                        </span>
+                    </label>
+
+                    <button class="modal-feedback__btn btn" type="submit">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/main.min.js"></script>
+</body>
+
+</html>

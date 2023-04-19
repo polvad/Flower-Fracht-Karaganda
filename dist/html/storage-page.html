@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,italic&display=swap"
+        rel="stylesheet">
+    <title>Flower Fracht Karaganda</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @include('./components/header.html',{
+        "link-storage": "active"
+        })
+        <main class="main">
+            <section class="storage">
+                <div class="decor">
+                    <img class="decor__map-left" src="./images/map/map-left.svg" alt="img">
+                    <img class="decor__plane-left" width="50" src="./images/map/plane.svg" alt="img">
+                    <img class="decor__map-right" src="./images/map/map-right.svg" alt="img">
+                    <img class="decor__plane-right" width="50" src="./images/map/plane-right.svg" alt="img">
+                </div>
+
+                <div class="head-page" style="background-image: url('./images/contacts-bg.jpg');">
+                    <div class="container">
+                        <div class="head-page__inner">
+                            <span class="head-page__name-company name-company name-company_white">Flower Fracht
+                                Karaganda</span>
+                            <h1 class="head-page__title h1-title">Наши склады</h1>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="storage__body section">
+                 <div class="container">
+                     <ul class="storage__btn-list">
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark active" type="button"
+                                 data-tabs-btn="kz">Казахстан</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark " type="button" data-tabs-btn="ru">Россия</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark" type="button"
+                                 data-tabs-btn="uz">Узбекистан</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark" type="button"
+                                 data-tabs-btn="az">Азербайджанская</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark" type="button"
+                                 data-tabs-btn="tm">Туркменистан</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark" type="button" data-tabs-btn="am">Армения</button>
+                         </li>
+                         <li class="storage__btn-item">
+                             <button class="storage__btn-tabs btn-dark" type="button"
+                                 data-tabs-btn="by">Беларусь</button>
+                         </li>
+                     </ul>
+                
+                     <div class="storage__map-container">
+                         <ul class="storage__city-list" data-tabs-content="kz">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="karaganda">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Караганда
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="karaganda">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="karaganda-sokola">ул. Пичугина 143</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="karaganda-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="karaganda-lenina">ул. Абая 31</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="karaganda-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="karaganda-pushkina">Штурманская ул. 3/3</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="karaganda-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="astana">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Астана
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="astana">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="astana-sokola">просп. Тауелсиздик 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="astana-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="astana-lenina">ул. Жумабека Ташенова 7/2</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="astana-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="astana-pushkina">ул. Александра Бараева 4</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="astana-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="petropavlovsk">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Петропавловск
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="petropavlovsk">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="petropavlovsk-sokola">ул. Жамбыла Жабаева 182</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="petropavlovsk-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="petropavlovsk-lenina">ул. Чайковского 15</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="petropavlovsk-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="ru">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="moscow">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Москва
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="moscow">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="moscow-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="moscow-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="moscow-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="moscow-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="moscow-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="moscow-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="peterburg">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Санкт-Петербург
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="peterburg">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="peterburg-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="peterburg-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="peterburg-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="peterburg-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="peterburg-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="peterburg-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="ekaterenburg">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Екатеринбург
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="ekaterenburg">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="ekaterenburg-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="ekaterenburg-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="ekaterenburg-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="ekaterenburg-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="ekaterenburg-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="ekaterenburg-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="uz">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="uzbekistan">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Самарканд
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="uzbekistan">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="uzbekistan-sokola">ул. Мирзо Улугбека, 25</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="uzbekistan-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="jizzax">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Джизак
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="jizzax">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="jizzax-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="jizzax-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="jizzax-lenina">ул. Янгиер, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="jizzax-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="az">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Baku">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Баку
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Baku">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Baku-sokola">ул. Мирзо Улугбека, 25</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Baku-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Sumqayt">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Сумгаит
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Sumqayt">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Sumqayt-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Sumqayt-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Sumqayt-lenina">ул. Янгиер, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Sumqayt-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="tm">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Türkmenistan">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Aşgabat
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Türkmenistan">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Türkmenistan-sokola">ул. Мирзо Улугбека, 25</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="Türkmenistan-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Derweze">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Дарваза
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Derweze">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Derweze-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Derweze-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Derweze-lenina">ул. Янгиер, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Derweze-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="am">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Երևան">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Ереван
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Երևան">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Հայաստան-sokola">ул. Мирзо Улугбека, 25</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="Հայաստան-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Բյուրական">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Бюракан
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Բյուրական">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Բյուրական-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="Բյուրական-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Բյուրական-lenina">ул. Янгиер, 18</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="Բյուրական-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <ul class="storage__city-list hidden" data-tabs-content="by">
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="minsk">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Минск
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="minsk">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="minsk-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="minsk-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="minsk-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="minsk-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="minsk-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="minsk-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="Магілёў">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Могилёв
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="Магілёў">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Магілёў-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Магілёў-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Магілёў-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="Магілёў-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="Магілёў-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden"
+                                             data-spoiler-content="Магілёў-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                             <li class="storage__city-item">
+                                 <button class="storage__city-btn" type="button" data-spoiler-btn="gomel">
+                                     <svg class="storage__city-btn-icon" width="16" height="19">
+                                         <use xlink:href="./images/sprite.svg#icon-location"></use>
+                                     </svg>
+                                     Гомель
+                                 </button>
+                
+                                 <ul class="storage__address-list hidden" data-spoiler-content="gomel">
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="gomel-sokola">ул. Петра Сокола, 14</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="gomel-sokola">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="gomel-lenina">ул. Ленина, 18</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="gomel-lenina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                
+                                     <li class="storage__address-item">
+                                         <button class="storage__address-btn" type="button"
+                                             data-spoiler-btn="gomel-pushkina">ул. Пушкина, 161</button>
+                
+                                         <div class="storage__address-body hidden" data-spoiler-content="gomel-pushkina">
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Режим работы:</span>
+                                                 <p class="storage__address-text">
+                                                     Пн-Пт - с 9:00 до 18:00 <br>
+                                                     Сб-Вс - выходной
+                                                 </p>
+                                             </div>
+                
+                                             <div class="storage__address-block">
+                                                 <span class="storage__address-title">Контакты:</span>
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674487">+57 1 567 44 87</a> &ensp; - Олег
+                                                 </p>
+                
+                                                 <p class="storage__address-text">
+                                                     <a href="tel:+5715674482">+57 1 567 44 82</a> &ensp; - Леся
+                                                 </p>
+                                             </div>
+                                         </div>
+                
+                                     </li>
+                                 </ul>
+                
+                             </li>
+                
+                         </ul>
+                
+                         <div class="storage__map">
+                             <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.77364396285!2d37.50777164808941!3d55.7125305891578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sua!4v1681407277198!5m2!1sru!2sua"
+                                 style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                     </div>
+                 </div>
+               </div>
+            </section>
+
+
+
+        </main>
+
+        @include('./components/footer.html')
+    </div>
+
+    @include('./components/scripts.html')
+</body>
+
+</html>

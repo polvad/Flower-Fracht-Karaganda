@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,italic&display=swap"
+        rel="stylesheet">
+    <title>Flower Fracht Karaganda</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @include('./components/header.html',{
+        "link-broker": "active"
+        })
+        <main class="main">
+            <div class="head-page" style="background-image: url('./images/broker-bg.jpg');">
+                <div class="container">
+                    <div class="head-page__inner">
+                        <span class="head-page__name-company name-company name-company_white">Flower Fracht Karaganda</span>
+                        <h1 class="head-page__title h1-title">Брокерам</h1>
+                    </div>
+                </div>
+            </div>
+
+            <section class="broker section">
+                <div class="container">
+                    <h2 class="broker__title h2-title">Помогаем брокерам из любых стран с доставкой цветов по всему СНГ
+                    </h2>
+                    <div class="broker__inner">
+
+                        <div class="broker__circel">
+                            <div class="broker__circel-step">
+                                <span class="broker__item-step">
+                                    Брокер
+                                    <span class="broker__circel-icon"
+                                        style="background-image: url('./images/icons/icon-man.svg');"></span>
+                                </span>
+
+                                <span class="broker__item-step">
+                                    FFK logistic
+                                    <span class="broker__circel-icon"
+                                        style="background-image: url('./images/icons/icon-building.svg');"></span>
+                                </span>
+
+                                <span class="broker__item-step">
+                                    Клиент
+                                    <span class="broker__circel-icon"
+                                        style="background-image: url('./images/icons/icon-man.svg');"></span>
+                                </span>
+
+                                <div class="broker__circel-arrow">
+                                    <svg class="broker__circel-arrow-icon" width="13" height="10">
+                                        <use xlink:href="./images/sprite.svg#icon-arrow-down"></use>
+                                    </svg>
+
+                                    <svg class="broker__circel-arrow-icon" width="13" height="10">
+                                        <use xlink:href="./images/sprite.svg#icon-arrow-down"></use>
+                                    </svg>
+
+                                    <svg class="broker__circel-arrow-icon" width="13" height="10">
+                                        <use xlink:href="./images/sprite.svg#icon-arrow-down"></use>
+                                    </svg>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <ul class="broker__list">
+                            <li class="broker__item" data-tilt>
+                                <span class="broker__card-step">1 шаг</span>
+                                <p class="broker__card-text"><b>Клиент обращается</b>/работает с брокером</p>
+                            </li>
+
+                            <li class="broker__item" data-tilt>
+                                <span class="broker__card-step">2 шаг</span>
+                                <p class="broker__card-text"><b>Клиент делает</b>заказ</p>
+                            </li>
+
+                            <li class="broker__item" data-tilt>
+                                <span class="broker__card-step">3 шаг</span>
+                                <p class="broker__card-text"><b>Брокер передает груз</b>клиента в нашу компанию для
+                                    доставки
+                                </p>
+                            </li>
+
+                            <li class="broker__item" data-tilt>
+                                <span class="broker__card-step">4 шаг</span>
+                                <p class="broker__card-text"><b>Осуществляем доставку</b>клиенту заказа брокером до
+                                    двери</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+
+        @include('./components/footer.html')
+    </div>
+
+    @include('./components/scripts.html')
+</body>
+
+</html>
